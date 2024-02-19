@@ -13,7 +13,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#FFF",
-    "navigationBarTitleText": "PowerFoods",
+    "navigationBarTitleText": "智食计划",
     "navigationBarTextStyle": "black"
   },
   "usingComponents": {
@@ -31,21 +31,21 @@
       },
       {
         "pagePath": "pages/baskets/baskets",
-        "text": "菜篮子",
+        "text": "菜篮",
         "iconPath": "/assets/tarbarImg/grid.png",
         "selectedIconPath": "/assets/tarbarImg/grid-active-copy.png"
       },
       {
         "pagePath": "pages/menus/menus",
-        "text": "菜单",
-        "iconPath": "/assets/tarbarImg/grid.png",
-        "selectedIconPath": "/assets/tarbarImg/grid-active-copy.png"
+        "text": "食圈",
+        "iconPath": "/assets/tarbarImg/shiquan.png",
+        "selectedIconPath": "/assets/tarbarImg/shiquan-active.png"
       },
       {
         "pagePath": "pages/notes/notes",
         "text": "笔记",
-        "iconPath": "/assets/tarbarImg/grid.png",
-        "selectedIconPath": "/assets/tarbarImg/grid-active-copy.png"
+        "iconPath": "/assets/tarbarImg/biji.png",
+        "selectedIconPath": "/assets/tarbarImg/biji-active.png"
       },
       {
         "pagePath": "pages/mine/mine",
