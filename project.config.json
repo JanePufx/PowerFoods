@@ -1,103 +1,78 @@
 {
-	"description": "项目配置文件",
-	"packOptions": {
-		"ignore": []
-	},
-	"setting": {
-		"urlCheck": false,
-		"es6": true,
-		"enhance": false,
-		"postcss": true,
-		"minified": true,
-		"newFeature": true,
-		"coverView": true,
-		"nodeModules": true,
-		"autoAudits": false,
-		"checkInvalidKey": true,
-		"checkSiteMap": true,
-		"uploadWithSourceMap": true,
-		"babelSetting": {
-			"ignore": [],
-			"disablePlugins": [],
-			"outputPath": ""
-		}
-	},
-	"compileType": "miniprogram",
-	"libVersion": "2.10.4",
-	"appid": "wx8939d6abe6252f2d",
-	"projectname": "PowerFoods",
-	"debugOptions": {
-		"hidedInDevtools": []
-	},
-	"isGameTourist": false,
-	"simulatorType": "wechat",
-	"simulatorPluginLibVersion": {},
-	"condition": {
-		"search": {
-			"current": -1,
-			"list": []
-		},
-		"conversation": {
-			"current": -1,
-			"list": []
-		},
-		"plugin": {
-			"current": -1,
-			"list": []
-		},
-		"game": {
-			"currentL": -1,
-			"list": []
-		},
-		"gamePlugin": {
-			"current": -1,
-			"list": []
-		},
-		"miniprogram": {
-			"current": -1,
-			"list": [
-				{
-					"id": -1,
-					"name": "菜单页面",
-					"pathName": "pages/menus/menus",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "菜谱详情页面",
-					"pathName": "pages/food_detail/food_detail",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "菜谱页面",
-					"pathName": "pages/food_menu/food_menu",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "菜谱页面",
-					"pathName": "pages/food_menu/food_menu",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "搜索页面",
-					"pathName": "pages/search/search",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "我的页面",
-					"pathName": "pages/mine/mine",
-					"scene": null
-				}
-			]
-		}
-	}
+    "description": "项目配置文件",
+    "packOptions": {
+        "ignore": [],
+        "include": []
+    },
+    "setting": {
+        "urlCheck": false,
+        "es6": true,
+        "enhance": false,
+        "postcss": true,
+        "minified": true,
+        "newFeature": true,
+        "coverView": true,
+        "nodeModules": true,
+        "autoAudits": false,
+        "checkInvalidKey": true,
+        "checkSiteMap": true,
+        "uploadWithSourceMap": true,
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
+        }
+    },
+    "compileType": "miniprogram",
+    "libVersion": "2.10.4",
+    "appid": "wx1dfe554ea7bfc32c",
+    "projectname": "PowerFoods",
+    "simulatorType": "wechat",
+    "simulatorPluginLibVersion": {},
+    "condition": {
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "菜单页面",
+                    "pathName": "pages/menus/menus",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "菜谱详情页面",
+                    "pathName": "pages/food_detail/food_detail",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "菜谱页面",
+                    "pathName": "pages/food_menu/food_menu",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "菜谱页面",
+                    "pathName": "pages/food_menu/food_menu",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "搜索页面",
+                    "pathName": "pages/search/search",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "我的页面",
+                    "pathName": "pages/mine/mine",
+                    "query": "",
+                    "scene": null
+                }
+            ]
+        }
+    },
+    "editorSetting": {
+        "tabIndent": "insertSpaces",
+        "tabSize": 4
+    }
 }

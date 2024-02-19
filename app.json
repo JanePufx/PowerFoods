@@ -1,7 +1,9 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/baskets/baskets",
     "pages/menus/menus",
+    "pages/notes/notes",
     "pages/mine/mine",
     "pages/search/search",
     "pages/food_detail/food_detail",
@@ -28,8 +30,20 @@
       "selectedIconPath": "/assets/tarbarImg/shouye-active.png"
       },
       {
+        "pagePath": "pages/baskets/baskets",
+        "text": "菜篮子",
+        "iconPath": "/assets/tarbarImg/grid.png",
+        "selectedIconPath": "/assets/tarbarImg/grid-active-copy.png"
+      },
+      {
         "pagePath": "pages/menus/menus",
         "text": "菜单",
+        "iconPath": "/assets/tarbarImg/grid.png",
+        "selectedIconPath": "/assets/tarbarImg/grid-active-copy.png"
+      },
+      {
+        "pagePath": "pages/notes/notes",
+        "text": "笔记",
         "iconPath": "/assets/tarbarImg/grid.png",
         "selectedIconPath": "/assets/tarbarImg/grid-active-copy.png"
       },

@@ -47,12 +47,12 @@
     </view>
   </view>
 
-  <!-- 热门标签部分 -->
+  <!-- 食物分类部分 -->
   <view class="hot_foods">
     <view class="hot_title_more">
         <view class="title">
-          热门标签
-          <iconfont class="remen1" name="remen1"></iconfont>
+            食物分类
+          
         </view>
     </view>
     <view class="hot_items">
@@ -70,13 +70,13 @@
       <view class="like_title">
         <view class="title">
           猜你喜欢
-          <iconfont class="xihuan" name="cainixihuan"></iconfont>
+          
         </view>
       </view>
       <view class="like_items">
         <view class="like_item" wx:for="{{likeData}}" wx:key="id">
           <navigator class="item_img" url="/pages/food_detail/food_detail?id={{item.id}}&api=1">
-            <image src="{{item.imgage}}"></image>
+            <image src="{{item.image}}"></image>
           </navigator>
           <view class="item_title">
             {{item.name}}
