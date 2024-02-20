@@ -26,14 +26,14 @@
       {
       "pagePath": "pages/index/index",
       "text": "首页",
-      "iconPath": "/assets/tarbarImg/shouye.png",
-      "selectedIconPath": "/assets/tarbarImg/shouye-active.png"
+      "iconPath": "/assets/tarbarImg/zhuye.png",
+      "selectedIconPath": "/assets/tarbarImg/zhuye-active.png"
       },
       {
         "pagePath": "pages/baskets/baskets",
         "text": "菜篮",
-        "iconPath": "/assets/tarbarImg/grid.png",
-        "selectedIconPath": "/assets/tarbarImg/grid-active-copy.png"
+        "iconPath": "/assets/tarbarImg/basket.png",
+        "selectedIconPath": "/assets/tarbarImg/basket-active.png"
       },
       {
         "pagePath": "pages/menus/menus",
