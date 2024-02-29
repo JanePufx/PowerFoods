@@ -1,0 +1,15 @@
+<!--pages/notes_detail.wxml-->
+<view style="display: flex; flex-direction: column; height: 150px; padding: 10px; margin-bottom: 10px; position: relative; left: 0rpx; top: 101rpx">
+  <view style="background-color: #F1F1F1; flex: 1;">
+    <text style="position:relative;">统计
+      <button>按钮</button>
+    </text>
+
+
+  </view>
+  <view style="background-color: #E6E6E6; flex: 1;"><text style="position:relative;">查抄饮食记录</text></view>
+  <view style="background-color: #F1F1F1; flex: 1;"><text style="position:relative;">更多功能...</text></view>
+
+  <icon type="success" size="40" style="width: 90rpx; height: 90rpx; display: block; box-sizing: border-box; position: relative; left: 0rpx; top: -375rpx"></icon>
+  </view>
+      

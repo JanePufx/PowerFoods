@@ -1,2 +1,35 @@
-<!--pages/notes/notes.wxml-->
-<text>pages/notes/notes.wxml</text>
+ <!--pages/notes/notes.wxml-->
+ <view style="position: relative; width: 100%; background: #d3d3d3; height: 100px; left: 0rpx; top: 115rpx">
+  <icon type="success" size="40" style="position: relative; left: 0rpx; top: -108rpx; width: 100rpx; height: 100rpx; display: inline-block; box-sizing: border-box"></icon>
+
+<text style="position: relative; left: 0rpx; top: -141rpx; font-size: 46rpx">你好
+  <text style="position: relative; left: 94rpx; top: -24rpx; font-size: 20rpx">2024.02.23 08:00</text>
+  </text>
+  </view>
+<icon type="success" size="40" style="position: relative; left: 38rpx; top: -52rpx; width: 100rpx; height: 100rpx; display: inline-block; box-sizing: border-box"></icon>
+<icon type="success" size="40" style="position: relative; left: 83rpx; top: -52rpx; width: 100rpx; height: 100rpx; display: inline-block; box-sizing: border-box"></icon>
+<icon type="success" size="40" style="position: relative; left: 129rpx; top: -52rpx; width: 100rpx; height: 100rpx; display: inline-block; box-sizing: border-box"></icon>
+<icon type="success" size="40" style="position: relative; left: 183rpx; top: -52rpx; width: 100rpx; height: 100rpx; display: inline-block; box-sizing: border-box"></icon>
+<icon type="success" size="40" style="position: relative; left: -394rpx; top: 115rpx; width: 100rpx; height: 100rpx; display: inline-block; box-sizing: border-box"></icon>
+<view style="position: relative; width: 558rpx; background: #d3d3d3; height: 61rpx; left: 136rpx; top: 31rpx; display: block; box-sizing: border-box">
+
+
+
+
+  <text style="position:relative; font-size: 30rpx">说点什么吧...</text>
+  </view>
+<button style="position: relative; left: -24rpx; top: 479rpx">按钮</button>
+
+        
+      
+
+
+
+
+
+
+
+
+  
+  
+

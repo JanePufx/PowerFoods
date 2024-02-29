@@ -1,7 +1,7 @@
 <view class="container">
   <!-- 搜索 和 轮播 部分 -->
-  <view class="search_swiper">
-    <view class="foods_search_swiper">
+  <view class="search_swiper" style="width: 750rpx; height: 357rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">
+    <view class="foods_search_swiper" style="width: 750rpx; height: 336rpx; display: block; box-sizing: border-box">
       <!-- 搜索部分 -->
       <view class="search_box">
         <text class="iconfont icon-sousuo"></text>
@@ -12,7 +12,7 @@
 
       <!-- 轮播部分  -->
       <view class="foods_swiper">
-        <swiper class="swiper" autoplay interval="3000" circular indicator-dots="true" indicator-color="#000" indicator-active-color="#2ecc71">
+        <swiper class="swiper" autoplay interval="3000" circular indicator-dots="true" indicator-color="#000" indicator-active-color="#2ecc71" style="width: 675rpx; height: 193rpx; display: block; box-sizing: border-box">
           <swiper-item class="swiper_item" wx:for="{{swiperData}}" wx:key="id">
             <navigator class="swiper_navigator" url="/pages/food_detail/food_detail?id={{item.id}}&api=1">
               <image lazy-load mode="scaleToFill" src="{{item.imgage}}" />

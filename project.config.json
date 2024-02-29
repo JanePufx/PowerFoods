@@ -24,7 +24,7 @@
         }
     },
     "compileType": "miniprogram",
-    "libVersion": "2.10.4",
+    "libVersion": "3.3.4",
     "appid": "wx1dfe554ea7bfc32c",
     "projectname": "PowerFoods",
     "simulatorType": "wechat",
