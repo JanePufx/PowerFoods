@@ -1,4 +1,4 @@
-// pages/notes_detail.js
+// pages/baskets_food/baskets_food.js
 Page({
 
     /**

@@ -1,0 +1,79 @@
+/* pages/baskets_food/baskets_food.wxss */
+/* 页面整体样式 */
+.page {
+  position: relative; /* 必须设置相对定位，以便于绝对定位的元素相对于其定位 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* 左上角文本样式 */
+.top-left-text {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-size: 28px;
+  color: #333; /* 文本颜色 */
+}
+
+/* 中间文本样式 */
+.middle-text {
+  position: absolute;
+  top: 80px;
+  left: 40px;
+  font-size: 14px;
+  color: rgb(80, 78, 78); /* 文本颜色 */
+}
+
+/* 下面文本样式 */
+.down-text {
+  position: absolute;
+  top: 150px;
+  left: 40px;
+  font-size: 20px;
+  color: rgb(10, 10, 10); /* 文本颜色 */
+}
+
+/* 文本框样式 */
+.input-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: calc(100% - 20px); /* 留出一些空间给间距 */
+  margin: 0 auto 20px; /* 上下间距为20px，水平居中 */
+}
+
+.input-box {
+  width: calc(33.33% - 10px); /* 每个文本框占据三分之一的宽度，减去间距 */
+  height: 40px;
+  margin-bottom: 10px; /* 底部间距为10px */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.input-box:focus {
+  outline: none; /* 去除默认的蓝色边框 */
+  border-color: #007bff; /* 设置选中状态下的边框颜色为蓝色 */
+}
+
+/* 按钮样式 */
+.btn-container {
+  margin-top: 20px;
+}
+
+.button {
+  width: 200px;
+  height: 60px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+}

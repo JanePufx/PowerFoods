@@ -9,7 +9,8 @@
         "pages/food_detail/food_detail",
         "pages/food_menu/food_menu",
         "pages/menu_detail/menu_detail",
-        "pages/notes_detail/notes_detail"
+        "pages/notes_detail/notes_detail",
+        "pages/baskets_food/baskets_food"
     ],
     "window": {
         "backgroundTextStyle": "light",

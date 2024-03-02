@@ -1,0 +1,48 @@
+<!--pages/baskets_food/baskets_food.wxml-->
+<view class="page">
+  <!-- 左上角文本 -->
+  <text class="top-left-text" style="position: absolute; left: 29rpx; top: 40rpx">已选择食材：</text>
+
+  <!-- 中间文本 -->
+  
+
+  <!-- 下面文本 -->
+  <text class="down-text" style="position: absolute; left: 29rpx; top: 460rpx">用餐场景：</text>
+
+  <!-- 第一行文本框 -->
+  <view class="input-container" style="position: relative; left: 0rpx; top: 343rpx">
+    <text class="input-box">早餐</text>
+    <text class="input-box">中餐</text>
+    <text class="input-box">下午茶</text>
+  </view>
+
+  <!-- 第二行文本框 -->
+  <view class="input-container" style="position: relative; left: 0rpx; top: 296rpx">
+    <text class="input-box">晚餐</text>
+    <text class="input-box">夜宵</text>
+    <text class="input-box">其他</text>
+  </view>
+
+
+  <!-- 按钮 -->
+  <view class="btn-container" style="position: relative; left: 0rpx; top: 165rpx">
+    <button class="button" style="position: relative; left: 0rpx; top: 71rpx">推荐食谱</button>
+  </view>
+
+  
+
+  <view style="position: relative; width: 750rpx; background: #d3d3d3; height: 242rpx; left: 0rpx; top: -547rpx; display: block; box-sizing: border-box">
+  
+    <view style="display: flex; flex-direction: column; height: 230rpx; padding: 10px; margin-bottom: 10px; width: 732rpx; box-sizing: border-box">
+      <view style="background-color: #F1F1F1; flex: 1;">
+        <checkbox style="position: relative; left: 617rpx; top: 4rpx" value="{{checkbBoxValue}}" checked="true" />
+        </view>
+      <view style="background-color: #E6E6E6; flex: 1;">
+        <checkbox style="position: relative; left: 617rpx; top: 4rpx" value="{{checkbBoxValue}}" checked="true" />
+        </view>
+      <view style="background-color: #F1F1F1; flex: 1;">
+        <checkbox style="position: relative; left: 617rpx; top: 0rpx" value="{{checkbBoxValue}}" checked="true" />
+        </view>
+    </view>
+</view>
+  </view>
